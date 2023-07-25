@@ -12,7 +12,7 @@ public class WaveConfigSO : ScriptableObject
         return pathPrefab.GetChild(0);
     }
 
-    public List<Transform> GetWayPoint(){
+    public List<Transform> GetWayPoints(){
         List<Transform> waypoints = new List<Transform>();
         foreach( Transform child in pathPrefab)
         {
